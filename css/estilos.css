@@ -1,0 +1,34 @@
+.elementos1 a[target] {
+  background-color: purple;
+  color: #ffffff;
+} 
+ 
+.elementos2 a[target=_blank] {
+  background-color: green;
+  color: #ffffff; 
+}
+
+.elementos3 [alt~=Blog] {
+  text-decoration: underline;
+} 
+
+.elementos4 [class|=comunidad] { 
+  font-size: 25px;
+} 
+
+.elementos5 [class^="comunidad"] {
+  background-color: orange;
+}
+
+.elementos6 [class$="colectiva"] {
+  text-transform: uppercase;
+  background-color: gray;
+  color: #ffffff;
+} 
+
+.elementos7 [class*="nube"] {
+  background: pink;
+}
+
+
+
